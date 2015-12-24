@@ -26,7 +26,7 @@ $opts.on('-m', '--master MASTER_IP', 'Percona master server IP') { |v|
   options.master = v
 }
 $opts.on('-l', '--slaves-list SLAVES_LIST', 'Percona slave servers IP list') { |v|
-  options.slave = v
+  options.slaves_list = v
 }
 $opts.on('-s', '--slave SLAVE_IP', 'Percona slave server IP') { |v|
   options.slave = v

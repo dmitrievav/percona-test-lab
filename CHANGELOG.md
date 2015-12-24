@@ -1,9 +1,10 @@
 Percona test lab CHANGELOG
 ===========================
 
+
 1.0.2
 -----
-- Fixed curl params
+- Fixed setup.rb
 
 1.0.1
 -----
