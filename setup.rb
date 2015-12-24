@@ -115,7 +115,7 @@ puts "Prepare chef cookbooks ..."
 system '[ -d /tmp/kitchen ] || mkdir /tmp/kitchen \
 && cd /tmp/kitchen \
 && echo "Make sure that you can download dist.tgz !!!" \
-&& curl -iL -O https://raw.githubusercontent.com/dmitrievav/percona-test-lab/master/dist.tgz \
+&& curl -L -O https://raw.githubusercontent.com/dmitrievav/percona-test-lab/master/dist.tgz \
 && tar xzvf dist.tgz 1>/dev/null'
 #&& cp /vagrant/dist.tgz ./ \
 abort("Unable to download dist.tgz") unless $?.success?

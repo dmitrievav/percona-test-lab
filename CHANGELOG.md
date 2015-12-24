@@ -1,6 +1,10 @@
 Percona test lab CHANGELOG
 ===========================
 
+1.0.2
+-----
+- Fixed curl params
+
 1.0.1
 -----
 - Fixed urls
