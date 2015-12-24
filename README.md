@@ -6,7 +6,7 @@ Installation
 ------------
 - Directly on node
 <pre><code>
-curl -L -O https://github.com/dmitrievav/percona-test-lab/blob/master/setup.rb
+curl -L -O https://raw.githubusercontent.com/dmitrievav/percona-test-lab/master/setup.rb
 ruby ./setup.rb
 </code></pre>
 

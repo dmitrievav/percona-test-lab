@@ -1,6 +1,10 @@
 Percona test lab CHANGELOG
 ===========================
 
+1.0.1
+-----
+- Fixed urls
+
 1.0.0
 -----
 - Updated dist.tgz
