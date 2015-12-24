@@ -1,0 +1,19 @@
+{
+  "percona": {
+    "master": "10.0.0.105",
+    "slaves": [
+      "10.0.0.106"
+    ],
+    "server": {
+      "root_password": "vagrant",
+      "debian_password": "vagrant",
+      "replication": {
+        "password": "vagrant"
+      },
+      "bind_address": "10.0.0.105"
+    }
+  },
+  "run_list": [
+    "recipe[percona-multi::master]"
+  ]
+}
