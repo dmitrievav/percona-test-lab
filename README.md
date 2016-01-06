@@ -70,5 +70,5 @@ Content description
 - `CHANGELOG.md` - Percona test lab CHANGELOG
 - `.kitchen.yml` - Test-kitchen settings
 - `Vagrantfile.erb` - Vagrant custom settings
-- `cookbooks/*` - Chef community and foked cookbooks
+- `cookbooks/*` - Chef community and forked cookbooks
 - `dist & dist.tgz` - chef-zero repo, that is used by setup.rb
